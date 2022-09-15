@@ -1,7 +1,14 @@
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
 .top-nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+    position: relative;
+    z-index: 10;
     background: #f8f7f6;
     border-bottom: 1px solid #eae8e4;
 }
@@ -53,11 +60,12 @@
 
 .top-menu {
     padding: 20px 0;
-    z-index: 10;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #eae8e4;
-    position: relative;
+    position: relative;    
+    z-index: 10;
+    background: white;
 }
 
 .top-menu .container {
@@ -123,4 +131,29 @@
     border: none;
     outline: none;
     font-size: 1.1rem;
+}
+
+.mega-menu{
+    height: calc(100vh - 125px);
+    width:100%;
+    /* margin-top: 125px; */
+    transform: translate3d(0,125px,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: white;
+    display: flex;
+}
+.mega-menu__child{
+    width: 25%;
+    background: white;
+}
+.mega-menu__grand{
+    width: 30%;
+    background: #f6f5f3;
+}
+.mega-menu__gallery{
+    width: 45%;
+    background: yellow;
 }
