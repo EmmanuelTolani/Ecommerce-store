@@ -1,0 +1,50 @@
+.collection-player {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.collection-player__video {
+    transform: scale(1.5);
+    position: relative;
+    z-index: 1;
+}
+
+.collection-player .container {
+    position: absolute;
+    bottom: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 0 3%;
+}
+
+.collection-player__title {
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.collection-player__button {
+    font-weight: 800;
+    font-size: 0.9rem;
+    padding: 20px;
+    background: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0e0d0d;
+}
+
+.collection-player__button:hover {
+    opacity: .8;
+    transition: .3 ease-in-out;
+}

@@ -1,0 +1,126 @@
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    background: #f8f7f6;
+    border-bottom: 1px solid #eae8e4;
+}
+
+.top-nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-nav__groupa {
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.top-nav__groupa-link {
+    padding-right: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav__groupa-link .fa-solid {
+    font-size: 1rem;
+    margin-right: 5px;
+    position: relative;
+    top: -2px
+}
+
+.top-nav__groupa-linktext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav__groupb {
+    display: flex;
+}
+
+.top-nav__groupb-icon {
+    font-size: 1rem;
+    width: 3rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #0e0d0d;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.top-menu {
+    padding: 20px 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eae8e4;
+    position: relative;
+}
+
+.top-menu .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-menu__groupa {
+    display: flex;
+}
+
+.top-menu__groupa-logo {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-menu__groupa-links {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-menu__groupa-link {
+    color: #0e0d0d;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top-menu__groupb {
+    width: 100%;
+    max-width: 400px;
+}
+
+.top-menu__groupb-input {
+    background: #e6e6e6;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-menu__groupb-input .fa-solid {
+    font-size: 1rem;
+    margin-right: .8rem;
+}
+
+.top-menu__groupb-search {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+}
