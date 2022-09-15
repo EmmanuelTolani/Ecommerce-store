@@ -148,6 +148,7 @@ header{
 .mega-menu__child{
     width: 25%;
     background: white;
+    padding: 6vw;
 }
 .mega-menu__grand{
     width: 30%;
