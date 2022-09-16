@@ -144,30 +144,46 @@ header{
     z-index: 9;
     background-color: white;
     display: flex;
+    transition: all .3s cubic-bezier(.57, .21, .69, 1.25);
+    height: 0;
+    overflow: hidden;
+}
+.mega-menu.mega-menu--open{
+    height: calc(100vh - 125px);
+    /* transform: translate3d(0, 125px, 0); */
 }
 .mega-menu__child{
     width: 25%;
     background: white;
-    padding: 2rem 114px;
+    padding: 2rem 3vw;
     display: flex;
     flex-direction: column;
 }
-.mega-menu__child-link{
+.mega-menu__link{
     font-weight: 500;
     font: .95rem;
     margin-bottom: 1.3rem;
     text-decoration: none;
     color: #0e0d0d;
 }
-.mega-menu__child-link:hover{
+.mega-menu__link:hover{
     font-weight: 700;
     transition: all .3s ease-in-out;
 }
 .mega-menu__grand{
     width: 30%;
     background: #f6f5f3;
+    padding: 2rem 3vw;
+        display: flex;
+        flex-direction: column;
 }
 .mega-menu__gallery{
     width: 45%;
     background: yellow;
+}
+.mega-menu__gallery-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
