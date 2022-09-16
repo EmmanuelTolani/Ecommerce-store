@@ -1,0 +1,31 @@
+.collections-page{
+    padding-top: 125px;
+}
+.collections-page h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1.3rem 0;
+}
+.collections-filter{
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #eae8e4;
+    border-bottom: 1px solid #eae8e4;
+}
+.collections-filter__title, .collections-filter__item{
+    height: 80px;
+    padding: 0 3rem;
+    border-right: 1px solid #eae8e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.collections-filter__title{
+    font-weight: 500;
+}
+.collections-filter__item:last-child{
+    border: none;
+}
