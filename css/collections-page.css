@@ -42,7 +42,7 @@
 .collections-products__item{
     overflow: hidden;
 }
-.collections-products__item-box{
+.collections-products__item-slider{
     overflow: hidden;
     height: 500px;
     background: grey;
@@ -104,7 +104,7 @@
     cursor: pointer;
     transition: all .4s ease-in-out;
 }
-.collections-products__item-box:hover .collections-product__left-icon,.collections-products__item-box:hover .collections-product__right-icon{
+.collections-products__item-slider:hover .collections-product__left-icon,.collections-products__item-slider:hover .collections-product__right-icon{
     opacity: 1;
 }
 
