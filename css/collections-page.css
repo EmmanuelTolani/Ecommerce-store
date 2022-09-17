@@ -29,3 +29,41 @@
 .collections-filter__item:last-child{
     border: none;
 }
+.collections-products{
+    padding: 3rem;
+}
+.collections-products .container{
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: repeat(3,500px);
+}
+.collections-products__item{
+    overflow: hidden;
+    background: red;
+}
+.collections-products__item-box{
+    overflow: hidden;
+    height: 500px;
+    background: grey;
+}
+.collections-products__item-heart{
+    display: flex;
+    justify-content: flex-end;
+}
+.collections-products__item-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collections-products__item-title{
+    padding: 0.7rem 0;
+    font-weight: 700;
+}
+.collections-products__item-price {
+    font-weight: 500;
+}
