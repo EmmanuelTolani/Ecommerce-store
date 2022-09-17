@@ -30,7 +30,7 @@
     border: none;
 }
 .collections-products{
-    padding: 3rem;
+    padding: 3rem 0;
 }
 .collections-products .container{
     display: grid;
@@ -49,6 +49,7 @@
     position: relative;
     display: flex;
     flex-wrap: nowrap;
+    cursor: pointer;
 }
 .collections-products__item-heart{
     position: absolute;
