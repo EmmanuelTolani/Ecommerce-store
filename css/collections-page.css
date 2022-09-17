@@ -47,10 +47,13 @@
     overflow: hidden;
     height: 500px;
     background: grey;
+    position: relative;
 }
 .collections-products__item-heart{
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
 }
 .collections-products__item-icon{
     width: 40px;
