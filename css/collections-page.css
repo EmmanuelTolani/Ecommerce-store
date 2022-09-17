@@ -99,7 +99,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    opacity: 0;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.collections-products__item-box:hover .collections-product__left-icon,.collections-products__item-box:hover .collections-product__right-icon{
+    opacity: 1;
 }
 
 .collections-products__item-title{
