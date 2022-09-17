@@ -41,7 +41,6 @@
 }
 .collections-products__item{
     overflow: hidden;
-    background: red;
 }
 .collections-products__item-box{
     overflow: hidden;
@@ -80,11 +79,29 @@
     top: 0;
     left: 0;
     height: 100%;
-    background: red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.collections-products__right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collections-product__left-icon,.collections-product__right-icon {
+    background: white;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .collections-products__item-title{
     padding: 0.7rem 0;
     font-weight: 700;
